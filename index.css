@@ -1,0 +1,28 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background: linear-gradient( #3a43cd 1%, pink 99%);
+    background-repeat: repeat-x;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+header img {
+    width: 200px;
+    transition: 0.4s;
+}
+
+header img:hover {
+    width: 600px;
+}
+#texto{
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    color: white;
+   
+}
